@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="container">
+        <div class="header">
+            <h1 class="h1-dev">devfinder</h1>
+            <p class="p-light">light <ion-icon name="sunny-outline"></ion-icon></p>
+        </div>
+
+        <div class="div-search">
+            <input type="text" placeholder="Search Github username..." class="input-search">
+            <button type="button" class="search-btn" onclick="userAction()">Search</button>
+        </div>
+
+        
+        <div class="result-container">
+            <div class="text-result">
+
+                <div class="div-name">
+                    <img src="./design/583231.png" alt="" class="user-img">
+                    <div class="info-user">
+                        <div class="div-create">
+                            <h1 class="h1-name">The Octocat</h1>
+                            <p class="p-create">Joined 25 Jan 2011</p>
+                        </div>
+                        <p class="p-type">User</p>
+                        <p class="p-bio">This profile has no bio</p>
+                    </div>
+                </div>
+
+                <div class="follower-div">
+                    <div class="follower-1">
+                        <p class="p-repos">Repos</p>
+                        <h1 class="h1-repos element">8</h1>
+                    </div>
+                    <div class="follower-1">
+                        <p class="p-repos">Followers</p>
+                        <h1 class="h1-followers element">3938</h1>
+                    </div>
+                    <div class="follower-1">
+                        <p class="p-repos">Following</p>
+                        <h1 class="h1-following element">9</h1>
+                    </div>
+                </div>
+
+                <div class="other-information">
+                    <div class="other-1">
+                        <div class="div-ontherinfo1">
+                            <p class="p-position"><ion-icon name="pin-outline"></ion-icon> <span class="p-postion1">San Francisco</span></p>
+                            <p class="p-link"><ion-icon name="link-outline"></ion-icon> <span class="p-link1">https://github.blog</span></p>
+                        </div>
+                        <div class="div-ontherinfo1 left">
+                            <p class="p-twitter"><ion-icon name="logo-twitter"></ion-icon> <span class="p-twitter1">Not Available</span></p>
+                            <p class="p-school"><ion-icon name="school-outline"></ion-icon> <span class="p-school1">Github</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>

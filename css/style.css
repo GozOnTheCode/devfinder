@@ -1,0 +1,199 @@
+@font-face {
+    font-family: font;
+    src: url(../font/Cascadia.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141c2f;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 730px;
+    height: 70vh;
+    margin-top: 6%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1-dev {
+    color: white;
+    font-family: font;
+    font-size: 20px;
+}
+
+.p-light {
+    color: white;
+    letter-spacing: 5px;
+    font-family: font;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 15px;
+    color: white;
+}
+
+.input-search {
+    width: 730px;
+    height: 7.5vh;
+    margin-top: 4%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(31 42 72);
+    outline: none;
+    color: white;
+    font-family: font;
+    padding-left: 50px;
+}
+
+.input-search::placeholder {
+    font-family: font;
+    color: rgb(122 131 154);
+}
+
+.div-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn {
+    margin-top: 25px;
+    margin-left: -95px;
+    height: 5.5vh;
+    padding: 2px 20px;
+    background-color: rgb(2 119 253);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: font;
+    cursor: pointer;
+}
+
+.result-container {
+    height: 55vh;
+    width: 730px;
+    background-color: rgb(31 42 72);
+    margin-top: 3.5%;
+    border-radius: 10px;
+}
+
+.user-img {
+    width: 130px;
+    border-radius: 100%;
+}
+
+.text-result {
+    margin: 0px 50px;
+    transform: translateY(8%);
+}
+
+.div-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-user {
+    margin-left: 5%;
+    margin-top: 3%;
+    line-height: 30px;
+}
+
+.h1-name {
+    color: white;
+    font-family: font;
+    font-size: 22px;
+}
+
+.p-type {
+    color: rgb(2 119 253);
+    font-family: font;
+    font-size: 13px;
+}
+
+.p-bio {
+    color: rgb(122 131 154);
+    font-family: font;
+    font-size: 14px;
+}
+
+.div-create {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-create {
+    transform: translateX(80%);
+    color: rgb(122 131 154);
+    font-family: font;
+    font-size: 14px;
+}
+
+.follower-div {
+    height: 14vh;
+    width: 70%;
+    border-radius: 10px;
+    background: #141c2f;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.follower-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.p-repos {
+    color: rgb(122 131 154);
+    font-family: font;
+    font-size: 14px;
+}
+
+.element {
+    color: white;
+    font-family: font;
+    font-size: 18px;
+    transform: translateY(50%);
+}
+
+.other-information {
+    margin-left: 160px;
+    margin-top: 5%;
+}
+
+.other-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-ontherinfo1 {
+    line-height: 30px;
+}
+
+.div-ontherinfo1 p {
+    color: rgb(122 131 154);
+    font-family: font;
+    font-size: 14px;
+}
+
+.left {
+    margin-left: 20%;
+}
